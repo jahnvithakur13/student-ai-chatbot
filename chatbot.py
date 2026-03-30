@@ -1,6 +1,6 @@
 import os
 from groq import Groq
-client = Groq(api_key="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")
+client = Groq(api_key="my_api_key")
 
 def get_ai_response(user_input, chat_history=None):
     """
